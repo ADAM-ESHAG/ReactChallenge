@@ -1,0 +1,123 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+body {
+    background-color:   #1A1B21;
+}
+
+#root {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 15%;
+    background-color: #23252C;
+}
+.container {
+    margin: 5% 25%;
+    background-color: #1A1B21;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.laura-image > img {
+    width: 100%;
+}
+.profil-name > h1 {
+    color: #FFFFFF;
+}
+.profil-name > h4 {
+    color: #F3BF99;
+}
+.profil-name > p > a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    
+}
+.email, .linkedin {
+    margin: 0 50px;
+}
+
+.email > button {
+    padding: 10px 30px;
+}
+.fontemail {
+    margin-right: 10px;
+    background-color: gray/300;
+}
+.linkedin > button {
+    color: #FFFFFF;
+    background-color: #5093E2;
+    padding: 10px 30px;
+}
+.fontLinkedin {
+    margin-right: 10px;
+}
+.mainContent {
+    color: #FFFFFF;
+    margin: 0 16%;
+}
+.footer {
+    padding: 20px 0;
+    background-color: #161619;
+}
+.reseaux {
+    display: flex;
+    justify-content: center;
+    
+}
+.reseaux > a {
+    color: #918E9B;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+/*---Ipad version---*/
+@media only screen and (max-width : 1024px){
+    #root {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+       margin: 5%; 
+    }
+}
+
+/*----Mobile Version---*/
+@media only screen and (max-width : 768px) {
+    #root {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        background-color: none;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .email > button {
+        padding: 10px 36px;
+    }
+    
+    .email, .linkedin {
+        margin: 10px 0;
+    }
+    .mainContent {
+        
+        margin: 0 25%;
+    }
+    .footer {
+        margin: 0
+    }
+}
