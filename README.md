@@ -1,4 +1,4 @@
-# Learn React by Challengging
+# Learn React by Challenging
 
 	This is my first challenge in React, and i'm so much excited to deep in.
 
